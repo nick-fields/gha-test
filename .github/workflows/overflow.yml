@@ -14,72 +14,84 @@ jobs:
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-9000"
       - name: 10 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-10000"
       - name: 11 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-11000"
       - name: 12 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-12000"
       - name: 13 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-13000"
       - name: 14 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-14000"
       - name: 15 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-15000"
       - name: 16 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-16000"
       - name: 17 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-17000"
       - name: 18 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-18000"
       - name: 19 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-19000"
       - name: 20 KLoC
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make lines-20000"
 
   bytes:
@@ -92,48 +104,56 @@ jobs:
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-2"
       - name: 4KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-4"
       - name: 8KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-8"
       - name: 16KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-16"
       - name: 32KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-32"
       - name: 64KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-64"
       - name: 128KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-128"
       - name: 512KiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-512"
 
       - name: 1MiB
@@ -141,6 +161,7 @@ jobs:
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1024"
 
       - name: 1⅛MiB
@@ -148,46 +169,54 @@ jobs:
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1152"
       - name: 1¼MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1280"
       - name: 1⅜MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1408"
       - name: 1½MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1536"
       - name: 1⅝MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1664"
       - name: 1¾MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1792"
       - name: 1⅞MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-1920"
       - name: 2MiB
         if: always()
         uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 1
+          timeout_minutes: 5
           command: "make bytes-2048"
