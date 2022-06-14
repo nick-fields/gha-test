@@ -1,0 +1,45 @@
+name: lines
+
+"on":
+  push: {}
+
+jobs:
+  lines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 9 KLoC
+        if: always()
+        run: "for i in {1..9000}; do echo a; done; exit 1"
+      - name: 10 KLoC
+        if: always()
+        run: "for i in {1..10000}; do echo a; done; exit 1"
+      - name: 11 KLoC
+        if: always()
+        run: "for i in {1..11000}; do echo a; done; exit 1"
+      - name: 12 KLoC
+        if: always()
+        run: "for i in {1..12000}; do echo a; done; exit 1"
+      - name: 13 KLoC
+        if: always()
+        run: "for i in {1..13000}; do echo a; done; exit 1"
+      - name: 14 KLoC
+        if: always()
+        run: "for i in {1..14000}; do echo a; done; exit 1"
+      - name: 15 KLoC
+        if: always()
+        run: "for i in {1..15000}; do echo a; done; exit 1"
+      - name: 16 KLoC
+        if: always()
+        run: "for i in {1..16000}; do echo a; done; exit 1"
+      - name: 17 KLoC
+        if: always()
+        run: "for i in {1..17000}; do echo a; done; exit 1"
+      - name: 18 KLoC
+        if: always()
+        run: "for i in {1..18000}; do echo a; done; exit 1"
+      - name: 19 KLoC
+        if: always()
+        run: "for i in {1..19000}; do echo a; done; exit 1"
+      - name: 20 KLoC
+        if: always()
+        run: "for i in {1..20000}; do echo a; done; exit 1"
