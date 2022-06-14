@@ -1,3 +1,5 @@
+SHELL = bash
+
 bytes-%:
 	for i in {1..$*}; do cat kibibyte.txt; done; exit 1
 .PHONY: bytes-%

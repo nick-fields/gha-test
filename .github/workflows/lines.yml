@@ -7,6 +7,8 @@ jobs:
   lines:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
       - name: 9 KLoC
         if: always()
         run: "make lines-9000"
