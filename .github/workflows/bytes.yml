@@ -11,7 +11,7 @@ jobs:
 
       - name: 2KiB
         if: always()
-        run: "make bytes-2":
+        run: "make bytes-2"
       - name: 4KiB
         if: always()
         run: "make bytes-4"
