@@ -7,62 +7,58 @@ jobs:
   size:
     runs-on: ubuntu-latest
     steps:
-      - name: 1KiB
-        if: always()
-        run: "head -c$((11*1024)) /dev/zero | tr '\\0' a; exit 1"
+      - uses: actions/checkout@v2
+
       - name: 2KiB
         if: always()
-        run: "head -c$((2*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..2}; do cat kibibyte.txt; done; exit 1"
       - name: 4KiB
         if: always()
-        run: "head -c$((4*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..4}; do cat kibibyte.txt; done; exit 1"
       - name: 8KiB
         if: always()
-        run: "head -c$((8*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..8}; do cat kibibyte.txt; done; exit 1"
       - name: 16KiB
         if: always()
-        run: "head -c$((16*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..16}; do cat kibibyte.txt; done; exit 1"
       - name: 32KiB
         if: always()
-        run: "head -c$((32*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..32}; do cat kibibyte.txt; done; exit 1"
       - name: 64KiB
         if: always()
-        run: "head -c$((64*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..64}; do cat kibibyte.txt; done; exit 1"
       - name: 128KiB
         if: always()
-        run: "head -c$((128*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..128}; do cat kibibyte.txt; done; exit 1"
       - name: 512KiB
         if: always()
-        run: "head -c$((512*1024)) /dev/zero | tr '\\0' a; exit 1"
-      - name: 512KiB
-        if: always()
-        run: "head -c$((512*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..512}; do cat kibibyte.txt; done; exit 1"
 
       - name: 1MiB
         if: always()
-        run: "head -c$((1024*1024)) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1024}; do cat kibibyte.txt; done; exit 1"
 
       - name: 1⅛MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1152}; do cat kibibyte.txt; done; exit 1"
       - name: 1¼MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1280}; do cat kibibyte.txt; done; exit 1"
       - name: 1⅜MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 3*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1408}; do cat kibibyte.txt; done; exit 1"
       - name: 1½MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 4*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1536}; do cat kibibyte.txt; done; exit 1"
       - name: 1⅝MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 5*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1664}; do cat kibibyte.txt; done; exit 1"
       - name: 1¾MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 6*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1792}; do cat kibibyte.txt; done; exit 1"
       - name: 1⅞MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 7*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..1920}; do cat kibibyte.txt; done; exit 1"
       - name: 2MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 8*128 )) /dev/zero | tr '\\0' a; exit 1"
+        run: "for i in {1..2048}; do cat kibibyte.txt; done; exit 1"
