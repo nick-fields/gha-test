@@ -9,60 +9,60 @@ jobs:
     steps:
       - name: 1KiB
         if: always()
-        run: "head -c$((11*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((11*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 2KiB
         if: always()
-        run: "head -c$((2*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((2*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 4KiB
         if: always()
-        run: "head -c$((4*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((4*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 8KiB
         if: always()
-        run: "head -c$((8*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((8*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 16KiB
         if: always()
-        run: "head -c$((16*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((16*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 32KiB
         if: always()
-        run: "head -c$((32*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((32*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 64KiB
         if: always()
-        run: "head -c$((64*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((64*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 128KiB
         if: always()
-        run: "head -c$((128*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((128*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 512KiB
         if: always()
-        run: "head -c$((512*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((512*1024)) /dev/zero | tr '\\0' a; exit 1"
       - name: 512KiB
         if: always()
-        run: "head -c$((512*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((512*1024)) /dev/zero | tr '\\0' a; exit 1"
 
       - name: 1MiB
         if: always()
-        run: "head -c$((1024*1024)) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$((1024*1024)) /dev/zero | tr '\\0' a; exit 1"
 
       - name: 1⅛MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1¼MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 1*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1⅜MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 3*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 3*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1½MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 4*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 4*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1⅝MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 5*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 5*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1¾MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 6*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 6*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 1⅞MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 7*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 7*128 )) /dev/zero | tr '\\0' a; exit 1"
       - name: 2MiB
         if: always()
-        run: "head -c$(( 1024*1024 + 8*128 )) /dev/zero |tr '\0' a; exit 1"
+        run: "head -c$(( 1024*1024 + 8*128 )) /dev/zero | tr '\\0' a; exit 1"
