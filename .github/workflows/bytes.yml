@@ -11,54 +11,54 @@ jobs:
 
       - name: 2KiB
         if: always()
-        run: "for i in {1..2}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-2":
       - name: 4KiB
         if: always()
-        run: "for i in {1..4}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-4"
       - name: 8KiB
         if: always()
-        run: "for i in {1..8}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-8"
       - name: 16KiB
         if: always()
-        run: "for i in {1..16}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-16"
       - name: 32KiB
         if: always()
-        run: "for i in {1..32}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-32"
       - name: 64KiB
         if: always()
-        run: "for i in {1..64}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-64"
       - name: 128KiB
         if: always()
-        run: "for i in {1..128}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-128"
       - name: 512KiB
         if: always()
-        run: "for i in {1..512}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-512"
 
       - name: 1MiB
         if: always()
-        run: "for i in {1..1024}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1024"
 
       - name: 1⅛MiB
         if: always()
-        run: "for i in {1..1152}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1152"
       - name: 1¼MiB
         if: always()
-        run: "for i in {1..1280}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1280"
       - name: 1⅜MiB
         if: always()
-        run: "for i in {1..1408}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1408"
       - name: 1½MiB
         if: always()
-        run: "for i in {1..1536}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1536"
       - name: 1⅝MiB
         if: always()
-        run: "for i in {1..1664}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1664"
       - name: 1¾MiB
         if: always()
-        run: "for i in {1..1792}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1792"
       - name: 1⅞MiB
         if: always()
-        run: "for i in {1..1920}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-1920"
       - name: 2MiB
         if: always()
-        run: "for i in {1..2048}; do cat kibibyte.txt; done; exit 1"
+        run: "make bytes-2048"

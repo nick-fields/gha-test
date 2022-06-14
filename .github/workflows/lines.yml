@@ -9,37 +9,37 @@ jobs:
     steps:
       - name: 9 KLoC
         if: always()
-        run: "for i in {1..9000}; do echo a; done; exit 1"
+        run: "make lines-9000"
       - name: 10 KLoC
         if: always()
-        run: "for i in {1..10000}; do echo a; done; exit 1"
+        run: "make lines-10000"
       - name: 11 KLoC
         if: always()
-        run: "for i in {1..11000}; do echo a; done; exit 1"
+        run: "make lines-11000"
       - name: 12 KLoC
         if: always()
-        run: "for i in {1..12000}; do echo a; done; exit 1"
+        run: "make lines-12000"
       - name: 13 KLoC
         if: always()
-        run: "for i in {1..13000}; do echo a; done; exit 1"
+        run: "make lines-13000"
       - name: 14 KLoC
         if: always()
-        run: "for i in {1..14000}; do echo a; done; exit 1"
+        run: "make lines-14000"
       - name: 15 KLoC
         if: always()
-        run: "for i in {1..15000}; do echo a; done; exit 1"
+        run: "make lines-15000"
       - name: 16 KLoC
         if: always()
-        run: "for i in {1..16000}; do echo a; done; exit 1"
+        run: "make lines-16000"
       - name: 17 KLoC
         if: always()
-        run: "for i in {1..17000}; do echo a; done; exit 1"
+        run: "make lines-17000"
       - name: 18 KLoC
         if: always()
-        run: "for i in {1..18000}; do echo a; done; exit 1"
+        run: "make lines-18000"
       - name: 19 KLoC
         if: always()
-        run: "for i in {1..19000}; do echo a; done; exit 1"
+        run: "make lines-19000"
       - name: 20 KLoC
         if: always()
-        run: "for i in {1..20000}; do echo a; done; exit 1"
+        run: "make lines-20000"
